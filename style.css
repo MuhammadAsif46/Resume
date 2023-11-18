@@ -97,3 +97,20 @@ body{
     padding-bottom: 2px;
     color: #fff;
 }
+
+.html{
+    width: 90%;
+    background-color: #fff
+}
+.css{
+    width: 80%;
+    background-color: #fff
+}
+.js{
+    width: 85%;
+    background-color: #fff
+}
+.react{
+    width: 90%;
+    background-color: #fff
+}
