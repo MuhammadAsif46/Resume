@@ -126,3 +126,11 @@ body{
 .icons2{
     padding: 18px 10px;
 }
+
+/* right side work */
+
+.name-div{
+    padding: 86px 0 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
