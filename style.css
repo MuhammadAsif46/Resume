@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(#636162, #b1afaf);
-    height: 122vh;
+    height: 135vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -18,7 +18,7 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 60%;
+    top: 67%;
 }
 
 .left{
@@ -45,6 +45,7 @@ body{
 }
 
 .profile-image img{
+    background-color: red;
     width: 100%;
     border-radius: 50%;
 }
@@ -162,4 +163,16 @@ body{
     vertical-align: bottom;
     font-size: 21px !important;
     color: #4d4d4d;
+}
+
+.p3{
+    font-size: 13px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.p3 span{
+    color: #ff9b00;
+    padding-left: 20px;
 }
