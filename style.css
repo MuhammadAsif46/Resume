@@ -141,14 +141,30 @@ a{
     background-color: #fff
 }
 
-.icons2{
-    padding: 18px 10px;
-}
 
 .social-link{
     display: flex;
     justify-content: space-evenly;
 }
+.hobbies{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link {
+        width: 3rem;
+        border-radius: 50%;
+        margin: 10px 0px;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  .link:hover {
+    background-color: #4d4d4d;
+    color: #fbb03b;
+    transition: 1s;
+  }
 
 /* right side work */
 
