@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(#636162, #b1afaf);
-    height: 200vh;
+    height: 180vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -23,18 +23,18 @@ a{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 80%;
+    top: 90%;
 }
 
 .left{
     background-color: #fbb03b;
-    width: 200px;
+    max-width: 200px;
     height: 100%;
     float: left;
 }
 
 .right{
-    width: 450px;
+    max-width: 69%;
     float: left;
 }
 
@@ -145,6 +145,7 @@ a{
 .social-link{
     display: flex;
     justify-content: space-evenly;
+    height: 6rem;
 }
 .hobbies{
     display: flex;
@@ -181,6 +182,7 @@ a{
 .box-2{
     padding: 0px 50px;
     margin-top: 30px;
+    margin-bottom: 1rem;
 }
 
 .p2{
@@ -203,10 +205,10 @@ a{
 }
 
 .p3{
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0px;
     word-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 0.8rem;
 }
 
 .p3 span{
