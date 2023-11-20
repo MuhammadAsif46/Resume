@@ -145,6 +145,11 @@ a{
     padding: 18px 10px;
 }
 
+.social-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* right side work */
 
 .name-div{
