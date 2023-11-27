@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(#636162, #b1afaf);
-    height: 210vh;
+    height: 220vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -23,7 +23,7 @@ a{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 33rem;
+    top: 34rem;
 }
 
 .left{
