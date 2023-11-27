@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(#636162, #b1afaf);
-    height: 180vh;
+    height: 210vh;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -23,7 +23,7 @@ a{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 90%;
+    top: 33rem;
 }
 
 .left{
@@ -213,4 +213,50 @@ a{
 .p3 span{
     color: #ff9b00;
     padding-left: 20px;
+}
+
+/* Media Quries */
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    body{
+        height: 250vh;
+        letter-spacing: 0;
+    }
+    .main{
+        width: 470px;
+        top: 650px;
+    }
+    .left{
+        width: 145px;
+    }
+    .heading{
+        margin-right: -11px;
+    }
+    .heading::after{
+        left: 130px;
+        top: 26px;
+        height: 21px;
+        transform: rotate(53deg);
+    }
+    .profile-image{
+        height: 150px;
+        width: 150px;
+    }
+    .name-div{
+        padding: 70px 0 60px 74px;
+        letter-spacing: 0;
+    }
+    .name-div h1{
+        font-size: 23px;
+    }
+    .name-div p{
+        font-size: 13px;
+    }
+    .left{
+        height: 75.3rem;
+    }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 479px) {
+    
 }
