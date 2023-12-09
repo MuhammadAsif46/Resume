@@ -146,6 +146,24 @@ a{
     justify-content: space-evenly;
     height: 6rem;
 }
+
+.portfolio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.port-link {
+    width: 7rem;
+    border-radius: 15px;
+    margin: 10px 0px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbb03b;
+}
+
+
 .hobbies{
     display: flex;
     justify-content: space-evenly;
@@ -160,16 +178,22 @@ a{
         align-items: center;
     }
     
-  .link:hover {
+  .link:hover{
     background-color: #4d4d4d;
     color: #fbb03b;
+    transition: 1s;
+  }
+
+  .port-link:hover {
+    background-color: #4d4d4d;
+    color:#fbb03b;
     transition: 1s;
   }
 
 /* right side work */
 
 .name-div{
-    padding: 86px 0 60px 55px;
+    padding: 86px 0 0px 55px;
     text-align: center;
     letter-spacing: 3px;
 }
@@ -243,7 +267,7 @@ a{
         width: 150px;
     }
     .name-div{
-        padding: 70px 0 60px 74px;
+        padding: 70px 0 0px 74px;
         letter-spacing: 0;
     }
     .name-div h1{
@@ -268,6 +292,7 @@ a{
     top: -11rem;
    }
 }
+
 @media only screen and (min-width: 399px) and (max-width: 448px) {
     body{
         height: 115vh;
